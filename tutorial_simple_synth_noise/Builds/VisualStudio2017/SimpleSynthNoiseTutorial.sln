@@ -219,7 +219,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "flac", "flac", "{2A093441-0
 		..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\win_utf8_io.h = ..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\win_utf8_io.h
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libFLAC", "libFLAC", "{EAE49DAE-C9DA-C22A-94BB-F594D24A8859}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libFLAC", "libFLAC", "{A4E6B4E2-A69A-671E-743C-BD876A6D82F8}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\bitmath.c = ..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\bitmath.c
 		..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\bitreader.c = ..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\bitreader.c
@@ -238,9 +238,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libFLAC", "libFLAC", "{EAE4
 		..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\window_flac.c = ..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\window_flac.c
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{03DE31C9-4319-43F6-00CD-07D4076628AF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{2BF7155F-ADB3-0B52-F9BB-B847E586E352}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "private", "private", "{57D44D97-1CEA-8801-71F9-2FDC3B30C765}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "private", "private", "{D7C3F7CF-DC12-BF0D-4EC0-458F93F5607C}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\all.h = ..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\all.h
 		..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\bitmath.h = ..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\bitmath.h
@@ -260,7 +260,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "private", "private", "{57D4
 		..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\window.h = ..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\window.h
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protected", "protected", "{72BC0A0E-5EFA-E29B-BC3B-C7C1D82692DD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protected", "protected", "{B1E86EDC-0C75-3FCB-F600-064D9DCF519D}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\protected\all.h = ..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\protected\all.h
 		..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\protected\stream_decoder.h = ..\..\..\..\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\protected\stream_decoder.h
@@ -1721,10 +1721,10 @@ Global
 		{F86FE87E-E9FA-0117-7B1D-9BD6F8AE7A2B} = {9B424FDD-E818-734F-9A73-089DB94DAD0F}
 		{AB4C4044-BD2A-AED7-B3B0-38C2624E2B03} = {9B424FDD-E818-734F-9A73-089DB94DAD0F}
 		{9B424FDD-E818-734F-9A73-089DB94DAD0F} = {AD2C04D4-7DBA-314E-4D66-F2B021015F59}
-		{57D44D97-1CEA-8801-71F9-2FDC3B30C765} = {03DE31C9-4319-43F6-00CD-07D4076628AF}
-		{72BC0A0E-5EFA-E29B-BC3B-C7C1D82692DD} = {03DE31C9-4319-43F6-00CD-07D4076628AF}
-		{03DE31C9-4319-43F6-00CD-07D4076628AF} = {EAE49DAE-C9DA-C22A-94BB-F594D24A8859}
-		{EAE49DAE-C9DA-C22A-94BB-F594D24A8859} = {2A093441-0818-FBB3-4018-AC42C7556BA1}
+		{D7C3F7CF-DC12-BF0D-4EC0-458F93F5607C} = {2BF7155F-ADB3-0B52-F9BB-B847E586E352}
+		{B1E86EDC-0C75-3FCB-F600-064D9DCF519D} = {2BF7155F-ADB3-0B52-F9BB-B847E586E352}
+		{2BF7155F-ADB3-0B52-F9BB-B847E586E352} = {A4E6B4E2-A69A-671E-743C-BD876A6D82F8}
+		{A4E6B4E2-A69A-671E-743C-BD876A6D82F8} = {2A093441-0818-FBB3-4018-AC42C7556BA1}
 		{2A093441-0818-FBB3-4018-AC42C7556BA1} = {39987945-FE5D-E386-3C47-064B2DF8EF23}
 		{C1E00123-06F7-8611-C34F-D28E65D1484B} = {BB6B3427-6256-D4F0-0335-52F2EC20FCF9}
 		{6206A11D-B7B7-C251-EDB5-3FED3EEA091C} = {BB6B3427-6256-D4F0-0335-52F2EC20FCF9}
